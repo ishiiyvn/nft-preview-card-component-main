@@ -1,0 +1,72 @@
+body, html{
+    background-color: hsl(217, 54%, 11%);
+    height: 100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+}
+
+.card-creator{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Outfit, sans-serif;
+}
+.card-days-left{
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit, sans-serif;
+    float:right;
+}
+
+.card-description{
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+}
+
+.card-main{
+    background:hsl(216, 50%, 16%);
+    border-radius: 16px;
+    box-shadow:  0px 30px 30px 30px hsl(216, 50%, 5%);
+    margin:auto;
+    max-width: 375px;
+    width:30em;
+    padding: 2.5em;
+}
+
+.card-price{
+    color: hsl(178, 100%, 50%);
+    font-family: Outfit, sans-serif;
+}
+
+.card-stats{
+    margin: 15px 0px;
+}
+
+.card-title{
+    color: hsl(0,0%,100%);
+    font-family: Outfit, sans-serif;
+    font-size: 24px;
+}
+
+.image-equilibrium{
+    border-radius: 8px;
+    width: 100%;
+}
+.image-avatar{
+    width: 15%;
+    border-radius: 50%;
+    border: hsl(0,0%,100%) solid 1px;
+}
+
